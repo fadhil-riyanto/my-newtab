@@ -1,0 +1,50 @@
+body {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow-x: hidden;
+}
+
+.use-backdrop {
+    backdrop-filter: blur(14px);
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.timestamp {
+    font-size: 60px;
+}
+
+#ucapan {
+    /* border-bottom: 1px solid white; */
+    font-size: 30px;
+}
+
+.myname {
+    /* border-bottom: 1px solid white; */
+    color: yellow;
+    font-size: 30px;
+}
+
+#inputan {
+    width: calc(100% - 40px);
+    height: 40px;
+    margin: 20px 20px;
+    background-color: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 20px;
+}
+
+#inputan:focus {
+    outline: none;
+
+}
+
+.searchbox {
+    margin: 100px 0px 0px 0px;
+}
